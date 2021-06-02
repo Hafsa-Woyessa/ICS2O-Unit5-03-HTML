@@ -1,16 +1,15 @@
-document.getElementById('report').addEventListener
-('click',reportResults)
+document.getElementById('report').addEventListener('click', 
+reportResults)
+
+function reportResults () {
+  alert(document.getElementById('input').value)
+}
 
 function displayMessage () {
   document.getElementById('paragraph').innerHTML =
   'I love food'
 }
-
-function reportResults () { 
-  alert(document.getElementById('input').value)
-}
-
 // This line displays a message
-alert('dear haiti')
+alert('The computer displays an alert')
 
-alert('love alaine') // This line displays a  message
+alert('Click the button to get an alert') // This line displays a  message
